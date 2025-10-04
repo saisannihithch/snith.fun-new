@@ -33,10 +33,10 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           <button 
             onClick={() => scrollToSection('home')}
-            className="font-mono text-primary font-bold text-xl glow-text"
+            className="flex items-center"
             data-testid="nav-logo"
           >
-            SNITH.FUN
+            <img src="/logo.png" alt="Snith.fun Logo" className="h-10 w-16" />
           </button>
           
           <div className="hidden md:flex space-x-8">
